@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator By Divya Jain</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <div class="age-calculator">
+        <h1> Age Calculator </h1>
+        <input type="date" name="" id="birth_date">
+        <button id="calculate_btn"> Calculate </button>
+        <div id="calculate_age"> Your Age </div>
+    </div> -->
+
+    <div class="container">
+        <div class="heading"> Age Calculator </div>
+        <div class="input">
+            <input type="date" name="date" id="input_date">
+            <button class="submit" onclick="calculateAge()"> Calculate </button>
+        </div>
+        <div class="result">
+            <div class="box">
+                <span id="years"> - </span>
+                <p> Years </p>
+            </div>
+            <div class="box">
+                <span id="months"> - </span>
+                <p> Months </p>
+            </div>
+            <div class="box">
+                <span id="days"> - </span>
+                <p> Days </p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
